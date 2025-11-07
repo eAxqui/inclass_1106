@@ -8,7 +8,7 @@ get_age("John", 1997)
 
 def cels_to_fah(celsius):
     fahrenheit = (9/5) * celsius +32
-    
+
     return fahrenheit
 
 def fah_to_cels(fahrenheit):
@@ -16,3 +16,8 @@ def fah_to_cels(fahrenheit):
 
     return celsius
 
+answer_one = cels_to_fah(30)
+print(answer_one)
+
+answer_two = fah_to_cels(86)
+print(answer_two)
