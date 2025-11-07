@@ -30,3 +30,5 @@ print(answer_two)
 """
 Documentation comment init
 """
+
+print(print.__doc__)
